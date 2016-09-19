@@ -1,0 +1,61 @@
+{
+  "operations": {
+    "brightness": "Brilho",
+    "contrast": "Contraste",
+    "filters": "Filtros",
+    "flip": "Inverter",
+    "frames": "Frames",
+    "radial-blur": "Blur Radial",
+    "rotation": "Rotação",
+    "saturation": "Saturação",
+    "stickers": "Adesivos",
+    "text": "Texto",
+    "tilt-shift": "Tilt shift",
+    "crop": "Cortar",
+    "brush": "Pincel"
+  },
+  "top-controls": {
+    "new": "Novo",
+    "undo": "Desfazer",
+    "export": "Exportar",
+    "zoom": "Zoom"
+  },
+  "splash": {
+    "upload": {
+      "headline": "Adicionar uma imagem",
+      "description": "Arraste uma imagem ou clique no botão e selecione uma"
+    },
+    "or": "or",
+    "webcam": {
+      "headline": "Tirar uma foto",
+      "description": "Clique aqui para tirar uma foto com sua webcam ou celular"
+    }
+  },
+  "generic": {
+    "loading": "Carregando",
+    "exporting": "Exportando",
+    "importing": "Importando",
+    "color": "Cor",
+    "error_headline": "Um erro ocorreu.",
+    "warning_headline": "Atenção!"
+  },
+  "controls": {
+    "frames": {
+      "color": "Cor"
+    },
+    "brush": {
+      "color": "Cor"
+    },
+    "text": {
+      "foreground": "Foreground",
+      "background": "Background"
+    }
+  },
+  "errors": {
+    "WEBGL_CONTEXT_LOST": "Your browser took too long to render the image. Please try applying less operations.",
+    "WEBGL_CONTEXT_LOST_LIMIT": "Your browser failed multiple times while rendering the image."
+  },
+  "warnings": {
+    "image_resized": "Your image exceeds the maximum size of $1 megapixels and has therefore been resized to $2x$3 pixels."
+  }
+}
