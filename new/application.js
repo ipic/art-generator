@@ -14,7 +14,8 @@ window.onload = function() {
       showExportButton: true,
       export: {
         type: ImglyKit.ImageFormat.JPEG
-      }
+      },
+      language: 'pt-br'
     },
     renderOnWindowResize: true // Our editor's size is relative to the window size
   });

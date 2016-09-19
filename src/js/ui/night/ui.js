@@ -467,6 +467,7 @@ class NightUI extends UI {
   _registerLanguages () {
     this.registerLanguage('en', require('./lang/en.json'))
     this.registerLanguage('de', require('./lang/de.json'))
+    this.registerLanguage('pt-br', require('./lang/pt-br.json'))
   }
 
   /**
