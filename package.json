@@ -6,14 +6,13 @@
   "author": "Ellison Leão",
   "license": "BSD",
   "scripts": {
-      "heroku-prebuild": "./install",
+      "build": "node ./node_modules/.bin/gulp build",
       "start": "node ./node_modules/.bin/gulp",
-      "build": "node ./node_modules/.bin/gulp build"
   },
   "engines": {
     "node": "5.11.0"
   },
-  "devDependencies": {
+  "dependencies": {
     "babel-core": "^5.5.1",
     "babel-loader": "^5.1.4",
     "brfs": "^1.4.0",
@@ -48,9 +47,7 @@
     "transform-loader": "^0.2.2",
     "vinyl-source-stream": "0.1.1",
     "webpack": "^1.9.10",
-    "webpack-notifier": "^1.2.1"
-  },
-  "dependencies": {
+    "webpack-notifier": "^1.2.1",
     "babel": "^5.5.3",
     "brfs": "^1.2.0",
     "dot": "^1.0.3",
