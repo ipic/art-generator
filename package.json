@@ -6,8 +6,12 @@
   "author": "Ellison Leão",
   "license": "BSD",
   "scripts": {
+      "heroku-prebuild": "./install",
       "start": "node ./node_modules/.bin/gulp",
       "build": "node ./node_modules/.bin/gulp build"
+  },
+  "engines": {
+    "node": "5.11.0"
   },
   "devDependencies": {
     "babel-core": "^5.5.1",

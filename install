@@ -31,9 +31,9 @@ fetch() {
 
   curl -# -L $1 -o $HOME/$tarball \
     && echo "... unpacking" \
-    && tar -zxf $tarball \
+    && tar -zxf $HOME/$tarball \
     && echo "... removing tarball" \
-    && rm -fr $tarball \
+    && rm -fr $HOME/$tarball \
     && install $HOME/$dir
 }
 
@@ -50,9 +50,9 @@ fetch_xz() {
 
   curl -# -L $1 -o $HOME/$tarball \
     && echo "... unpacking" \
-    && tar -xJf $tarball \
+    && tar -xJf $HOME/$tarball \
     && echo "... removing tarball" \
-    && rm -fr $tarball \
+    && rm -fr $HOME/$tarball \
     && install $dir
 }
 
