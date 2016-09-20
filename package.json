@@ -7,7 +7,7 @@
   "license": "BSD",
   "scripts": {
       "build": "node ./node_modules/.bin/gulp build",
-      "start": "node ./node_modules/.bin/gulp",
+      "start": "node ./node_modules/.bin/gulp"
   },
   "engines": {
     "node": "5.11.0"
