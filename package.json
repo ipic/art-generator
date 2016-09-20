@@ -1,9 +1,9 @@
 {
-  "name": "imglykit-sdk",
-  "version": "2.0.3-16",
-  "description": "img.ly filters sdk for the web",
+  "name": "art-generator",
+  "version": "1.0.0",
+  "description": "Gerador de artes IPIC",
   "repository": "",
-  "author": "img.ly <contact@img.ly>",
+  "author": "Ellison Leão",
   "license": "BSD",
   "scripts": {
       "start": "node ./node_modules/.bin/gulp",
