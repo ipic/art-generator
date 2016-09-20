@@ -14,7 +14,7 @@ var WebpackNotifierPlugin = require('webpack-notifier')
  * @type {Object}
  */
 var config = {
-  serverPort: 8080,
+  serverPort: process.env.PORT || 8080,
   externals: [
 
   ]

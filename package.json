@@ -6,9 +6,8 @@
   "author": "img.ly <contact@img.ly>",
   "license": "BSD",
   "scripts": {
-    "test": "NODE_ENV=test node_modules/.bin/mocha --harmony --require should --require babel/register --reporter spec test/*.test.js test/**/*.test.js",
-    "coveralls": "npm run coverage && cat ./coverage/lcov.info | node_modules/.bin/coveralls && rm -rf ./coverage",
-    "coverage": "NODE_ENV=test node_modules/.bin/istanbul cover node_modules/.bin/_mocha -x **/ui/** -x **webgl** -- --harmony --require should --require babel/register -R spec test/*.test.js test/**/*.test.js"
+      "start": "node ./node_modules/.bin/gulp",
+      "build": "node ./node_modules/.bin/gulp build"
   },
   "devDependencies": {
     "babel-core": "^5.5.1",
